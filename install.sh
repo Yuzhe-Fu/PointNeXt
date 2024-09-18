@@ -8,10 +8,10 @@
 
 
 # The following 4 lines are only for slurm machines. uncomment if needed.  
-export TORCH_CUDA_ARCH_LIST="6.1;6.2;7.0;7.5;8.0"   # a100: 8.0; v100: 7.0; 2080ti: 7.5; titan xp: 6.1
-module purge
-module load cuda/11.1.1
-module load gcc/7.5.0
+# export TORCH_CUDA_ARCH_LIST="6.1;6.2;7.0;7.5;8.0"   # a100: 8.0; v100: 7.0; 2080ti: 7.5; titan xp: 6.1
+# module purge
+# module load cuda/11.1.1
+# module load gcc/7.5.0
 
 # download openpoints
 # git submodule add git@github.com:guochengqian/openpoints.git
@@ -27,6 +27,8 @@ conda activate openpoints
 # please always double check installation for pytorch and torch-scatter from the official documentation
 conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.3 -c pytorch -c nvidia
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.1+cu113.html
+pip install torch_cluster-1.6.0-cp37-cp37m-linux_x86_64.whl
+
 
 pip install -r requirements.txt
 
