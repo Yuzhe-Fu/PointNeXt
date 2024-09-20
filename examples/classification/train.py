@@ -13,6 +13,7 @@ from openpoints.scheduler import build_scheduler_from_cfg
 # from openpoints.loss import build_criterion_from_cfg
 from openpoints.models import build_model_from_cfg
 from openpoints.models.layers import furthest_point_sample, fps
+import pdb
 
 
 def get_features_by_keys(input_features_dim, data):
