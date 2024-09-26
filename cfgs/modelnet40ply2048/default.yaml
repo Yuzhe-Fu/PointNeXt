@@ -21,7 +21,7 @@ datatransforms:
     shift: [0.2, 0.2, 0.2]
 batch_size: 32
 dataloader:
-  num_workers: 6
+  num_workers: 8 #used to be 6
 
 num_classes: 40
 # ---------------------------------------------------------------------------- #

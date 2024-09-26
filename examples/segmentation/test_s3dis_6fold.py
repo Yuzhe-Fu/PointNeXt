@@ -16,6 +16,7 @@ from openpoints.utils import get_mious, ConfusionMatrix
 from openpoints.utils import set_random_seed, load_checkpoint, setup_logger_dist, \
     cal_model_parm_nums, Wandb, generate_exp_directory, EasyConfig, dist_utils
 import warnings
+import pdb
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -130,7 +131,7 @@ if __name__ == "__main__":
 
         # find the corret pretrained path from the list
         pretrained_path = None
-
+        # pdb.set_trace()
         for pretrained in pretrained_paths_unorder:
             if f'test_area={i}' in pretrained:
                 pretrained_path = pretrained
