@@ -1,0 +1,45 @@
+0 0 0 depth= 4 , indx.size= 9 indx_batch.size= 9
+0 0 1 0 0 depth= 6 , indx.size= 6 indx_batch.size= 15
+0 0 1 0 1 0 depth= 7 , indx.size= 9 indx_batch.size= 24
+0 0 1 0 1 1 depth= 7 , indx.size= 13 indx_batch.size= 37
+0 0 1 1 0 0 depth= 7 , indx.size= 17 indx_batch.size= 54
+0 0 1 1 0 1 depth= 7 , indx.size= 4 indx_batch.size= 58
+0 0 1 1 1 0 depth= 7 , indx.size= 17 indx_batch.size= 75
+0 1 1 0 0 0 depth= 7 , indx.size= 11 indx_batch.size= 86
+0 1 1 0 0 1 depth= 7 , indx.size= 8 indx_batch.size= 94
+0 1 1 0 1 depth= 6 , indx.size= 9 indx_batch.size= 103
+0 1 1 1 0 depth= 6 , indx.size= 15 indx_batch.size= 118
+0 1 1 1 1 0 depth= 7 , indx.size= 15 indx_batch.size= 133
+0 1 1 1 1 1 depth= 7 , indx.size= 2 indx_batch.size= 135
+1 0 0 0 0 depth= 6 , indx.size= 17 indx_batch.size= 152
+1 0 0 0 1 depth= 6 , indx.size= 14 indx_batch.size= 166
+1 0 0 1 0 0 depth= 7 , indx.size= 14 indx_batch.size= 180
+1 0 0 1 1 0 depth= 7 , indx.size= 17 indx_batch.size= 197
+1 0 0 1 1 1 depth= 7 , indx.size= 1 indx_batch.size= 198
+1 0 1 depth= 4 , indx.size= 10 indx_batch.size= 208
+1 1 0 0 0 depth= 6 , indx.size= 15 indx_batch.size= 223
+1 1 0 0 1 0 depth= 7 , indx.size= 17 indx_batch.size= 240
+1 1 0 0 1 1 depth= 7 , indx.size= 1 indx_batch.size= 241
+1 1 0 1 0 0 depth= 7 , indx.size= 18 indx_batch.size= 259
+1 1 0 1 0 1 depth= 7 , indx.size= 1 indx_batch.size= 260
+1 1 0 1 1 depth= 6 , indx.size= 16 indx_batch.size= 276
+1 1 1 depth= 4 , indx.size= 9 indx_batch.size= 285
+0 0 0 0 0 depth= 6 , indx.size= 3 indx_batch.size= 288
+0 0 0 0 1 depth= 6 , indx.size= 12 indx_batch.size= 300
+0 0 0 1 0 depth= 6 , indx.size= 15 indx_batch.size= 315
+0 0 0 1 1 depth= 6 , indx.size= 18 indx_batch.size= 333
+0 0 1 depth= 4 , indx.size= 8 indx_batch.size= 341
+0 1 0 0 depth= 5 , indx.size= 6 indx_batch.size= 347
+0 1 0 1 0 depth= 6 , indx.size= 18 indx_batch.size= 365
+0 1 0 1 1 depth= 6 , indx.size= 14 indx_batch.size= 379
+0 1 1 depth= 4 , indx.size= 6 indx_batch.size= 385
+1 0 0 depth= 4 , indx.size= 6 indx_batch.size= 391
+1 0 1 0 0 depth= 6 , indx.size= 14 indx_batch.size= 405
+1 0 1 0 1 depth= 6 , indx.size= 15 indx_batch.size= 420
+1 0 1 1 0 depth= 6 , indx.size= 14 indx_batch.size= 434
+1 0 1 1 1 depth= 6 , indx.size= 14 indx_batch.size= 448
+1 1 0 depth= 4 , indx.size= 4 indx_batch.size= 452
+1 1 1 0 0 depth= 6 , indx.size= 13 indx_batch.size= 465
+1 1 1 0 1 depth= 6 , indx.size= 14 indx_batch.size= 479
+1 1 1 1 0 depth= 6 , indx.size= 15 indx_batch.size= 494
+1 1 1 1 1 depth= 6 , indx.size= 14 indx_batch.size= 508

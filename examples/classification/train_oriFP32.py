@@ -47,6 +47,7 @@ def print_cls_results(oa, macc, accs, epoch, cfg):
     s += f'E@{epoch}\tOA: {oa:3.2f}\tmAcc: {macc:3.2f}\n'
     logging.info(s)
 
+
 def main(gpu, cfg, profile=False):
     if cfg.distributed:
         if cfg.mp:
